@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       {(typeof backendData.users === 'undefined') ? (
-        <p>Loading all the required pages...</p>
+        <p>Loading all the pages...</p>
       ): (
         backendData.users.map((user, i) => (  
           <p key={i} >{user}</p>
